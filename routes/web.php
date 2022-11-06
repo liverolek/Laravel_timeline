@@ -135,5 +135,9 @@ Route::get('/change-password', [UserController::class, 'changePassword'])
 Route::post('/change-password', [UserController::class, 'update'])
 ->middleware('auth');
 
-
-  
+// Symlink storage 
+Route::get('/artisan/storage', function() {
+  $command = 'storage:link';
+  $result = Artisan::call($command);
+  return Artisan::output();
+});
