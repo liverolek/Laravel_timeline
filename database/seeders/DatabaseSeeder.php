@@ -2,9 +2,6 @@
 
 namespace Database\Seeders;
 
-
-use App\Models\User;
-use App\Models\Listing;
 use App\Models\Types;
 use App\Models\Events;
 use App\Models\Processes;
@@ -15,7 +12,7 @@ class DatabaseSeeder extends Seeder
 
     public function run()
     {
-       \App\Models\User::factory(1)->create();
+    //    \App\Models\User::factory(1)->create();
     
 
         Types::create(
