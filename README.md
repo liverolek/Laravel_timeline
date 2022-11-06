@@ -1,4 +1,3 @@
-[Link to configuration project on Heroku] (https://juangsalazprabowo.medium.com/how-to-deploy-a-laravel-app-into-heroku-df55efbf8e4e) 
 
 
 
